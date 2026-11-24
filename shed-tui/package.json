@@ -1,0 +1,25 @@
+{
+  "name": "shed-tui",
+  "version": "0.2.0",
+  "description": "High-fidelity Pi-TUI terminal presentation layer for shed",
+  "type": "module",
+  "bin": {
+    "shed-cli": "./bin/shed.js",
+    "shed-tui": "./bin/shed.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.js",
+    "start": "node bin/shed.js"
+  },
+  "dependencies": {
+    "@earendil-works/pi-tui": "^0.85.1",
+    "chalk": "^5.4.1",
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}

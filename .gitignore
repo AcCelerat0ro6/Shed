@@ -1,0 +1,44 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.my_agent_core/
+.ruff_cache/
+
+# 本地工具配置（Claude Code / Codex / Superpowers / MCP / Pi）
+node_modules/
+dist/
+*.tgz
+packages/
+.claude/
+.codex/
+.superpowers/
+.pi/
+.pi-glla/
+.agents/
+.mcp.json
+skills-lock.json
+
+# 本地私有文档（不上传远程 GitHub）
+CLAUDE.md
+AGENTS.md
+docs/superpowers/
+docs/archive/
+docs/assets/demo.gif
+
+# 评测临时运行日志与 PID 状态文件
+*.log
+*.pid
+*.flag
+jobs/
+shed-eval/jobs/
+shed-eval/results/active_task_locks/
+shed-eval/results/aiopslab_*/
+shed-eval/results/tool-results/
+shed-eval/cache/
+.worktrees/
+.worktrees
+
+

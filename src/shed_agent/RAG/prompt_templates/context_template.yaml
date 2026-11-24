@@ -1,0 +1,23 @@
+# Context templates
+templates:
+  - id: "default_context"
+    name: "Standard Template"
+    description: "Standard context formatting template"
+    i18n:
+      zh-CN:
+        name: "标准模板"
+        description: "基础的上下文模板，清晰展示参考资料和问题"
+      en-US:
+        name: "Standard Template"
+        description: "Basic context template with clear references and questions"
+    default: true
+    has_knowledge_base: true
+    content: |
+      ## Reference materials (source data)
+      {{contexts}}
+
+      ## Request metadata
+      Current time: {{current_time}} {{current_week}}
+
+      ## User request
+      {{query}}

@@ -1,0 +1,12 @@
+intent.greeting: |
+  简短回应用户的问候、致谢或告别。
+intent.chitchat: |
+  自然回应闲聊或常识问题。
+intent.follow_up: |
+  结合前文回答追问。遇到新包、新版本或需要外部证据的问题，交给检索流程。
+intent.clarification: |
+  结合检索证据和已有对话消解歧义。仍有多种可能时，询问可以区分它们的关键信息。
+intent.summarize: |
+  概括已有对话中的要点、结论和待解决问题。
+intent.doc_only: |
+  根据用户提供的正文回答，并指出依据所在段落。正文未提及的行为保持未知。
